@@ -1,6 +1,13 @@
-box2dweb
-========
-An npm listing of Uli Hecht's port of Box2DFlash which is the flash port of Erin Catto's box2d library.
+box2d-es6
+=========
+
+This is an npm listing of Uli Hecht's port of Box2DFlash which is the flash port of Erin Catto's box2d library.
+
+Jacek Pietal contributed by modifying version 2.2 of `box2dweb` and adding those patches:
+
+* bumping version so `yarn` can use the version without defineProperty overrides
+* using `lebab` on it
+* using `standard` on it
 
 [For more information, see the original Box2DWeb page.](https://code.google.com/p/box2dweb/)
 
@@ -8,7 +15,7 @@ Example
 =======
 
 ```javascript
-var Box2D = require("box2dweb")
+var Box2D = require("box2d-es6")
 ```
 
 Install
@@ -33,4 +40,4 @@ freely, subject to the following restrictions:
 
 JS port by Uli Hecht.
 
-NPM listing maintained by Mikola Lysenko.
+NPM listing maintained by Jacek Pietal.
